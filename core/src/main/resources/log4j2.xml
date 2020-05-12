@@ -14,7 +14,7 @@
         <Root level="info">
             <appender-ref ref="LogToFile"></appender-ref>
         </Root>
-        <Logger name="info.alexhawley" level="debug" additivity="false">
+        <Logger name="com.hawleywebdesign" level="debug" additivity="false">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
         </Logger>
